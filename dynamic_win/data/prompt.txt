@@ -128,4 +128,11 @@ There's no dialogue_history, so return [-1].
 
 ### output
 
-Only output the index [i] or [-1], no need to return other content.
+Only output the index [i] or [-1], no need to return other content. !!!
+
+The format of the output should be a list with a single integer element, like this:
+[i] !!!
+
+If there is no suitable index, return [-1] as a list with a single integer element. !!!
+
+No other text or explanation is needed, just the index in the specified format. !!!
